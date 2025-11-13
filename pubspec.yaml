@@ -1,0 +1,35 @@
+name: uts
+description: "A new Flutter project."
+
+# Mencegah publish ke pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+# BAGIAN INI MEMPERBAIKI ERROR KAMU
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # (Optional) Icon, bisa ditambahkan jika perlu
+  # cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+# Bagian terpenting untuk project Flutter
+flutter:
+
+  # Menggunakan Material Design
+  uses-material-design: true
+
+  # BAGIAN INI UNTUK MENDAFTARKAN GAMBAR KAMU
+  # Pastikan folder 'assets/images/' ada di root project kamu
+  assets:
+    - assets/images/
